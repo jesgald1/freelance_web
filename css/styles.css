@@ -1,3 +1,15 @@
+/*Custom property*/
+:root{
+    --primario : #ffc107;
+    --gris : #757575;
+    --letra-principal: "Montserrat", sans-serif;
+    --cabecera:#5DADE2;
+    --separacion:100px;
+    --blanco:white;
+}
+
+
+
 html {
 font-size: 62.5%;
 
@@ -6,13 +18,22 @@ font-size: 62.5%;
 body {
 
     font-size: 16px;
+    font-family: var(--letra-principal);
 }
 
-h1 {
+.cabecera {
   text-align: center;
   color: blue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--letra-principal);
   font-size: 3.8rem;
+}
+
+.contacto{
+    color: var(--gris)
+}
+
+.separacion {
+    margin-top: 100px;
 }
 
 h2{
@@ -28,6 +49,42 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img {
+.hero_imagen {
    text-align: center;
+   width:  100%;
+   height: 270px;
+   position: relative;
+   background: nonepx;
+   ;
 }
+
+
+.contenedor{
+    width: 120rem;
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+
+}
+
+.navegador-backgr{
+    background-color: var(--cabecera);
+    
+    
+}
+
+.navegacion-principal{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.enlaces{
+
+    color:var(--blanco);
+    text-decoration: none;
+    
+}
+  
