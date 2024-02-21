@@ -1,0 +1,33 @@
+html {
+font-size: 62.5%;
+
+}
+
+body {
+
+    font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.8rem;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    font-size: 2rem;
+    color: black;
+}
+
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+   text-align: center;
+}
