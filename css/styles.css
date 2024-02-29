@@ -69,6 +69,11 @@ nav {
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 5px;
+  border: none;
+}
+
+.boton:hover {
+  cursor: pointer;
 }
 
 .navegador-backgr {
@@ -202,7 +207,7 @@ nav {
   border: none;
 }
 
-.formulario legend{
+.formulario legend {
   text-align: center;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -210,15 +215,50 @@ nav {
   margin-bottom: 20px;
 }
 
-.estilos-campos{ 
+/*Utilidades*/
 
+.width100 {
+  width: 100%;
 }
 
-.campo{
-
+@media(min-width:768px){
+  .width100 {
+    width: auto;
+  }
 }
 
-.campo label{
+.flex {
+  display: flex;
+}
 
-  
+.alinear-derecha {
+  justify-content: flex-end;
+}
+
+.estilos-campos {
+  display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}
+
+.campo {
+  margin-bottom: 1rem;
+}
+
+.campo label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.texto-input {
+  width: 80%;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.boton .enviar {
+  width: 100%;
 }
